@@ -1,0 +1,32 @@
+.social {
+    list-style: none;
+    padding: 0;
+    margin: 0; 
+}
+
+.social li {
+    display: inline-block;
+}
+
+.social li:not(:first-child){
+    margin-left: 0.25rem;
+}
+
+.social svg {
+    height: 1.5rem;
+}
+
+.social a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    width: 3rem;
+    background-color: #3182CE;
+    border-radius: 100%;
+    transition: background-color 0.2s ease;
+}
+
+.social a:hover {
+    background-color: #2273BF;
+}

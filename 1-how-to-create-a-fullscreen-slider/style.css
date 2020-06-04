@@ -1,0 +1,98 @@
+/* base */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+@media(min-width: 479px) {
+  h2 {
+    font-size: 6rem;
+  }
+}
+
+/* hero */
+.hero {
+  height: 100vh;
+}
+
+.hero__slide {
+  display: flex !important;
+  align-items: center;
+  height: 100vh;
+  color: #fff;
+  background-position: 50%;
+  background-size: cover;
+  padding: 3rem;
+}
+
+@media(min-width: 479px) {
+  .hero__slide {
+    padding: 6rem;
+  }
+}
+
+.hero__slide--first {
+  background-image: url('./img/lion.jpg');
+}
+
+.hero__slide--last {
+  background-image: url('./img/zebra.jpg');
+}
+
+/* slick slider */
+.slick-arrow {
+  position: absolute;
+  bottom: 0;
+  font-size: 0;
+  height: 3rem;
+  width: 3rem;
+  background-color: #fff;
+  z-index: 1;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: background-color 0.2s ease;
+}
+
+@media(min-width: 479px) {
+  .slick-arrow {
+    height: 6rem;
+    width: 6rem;
+  }
+}
+
+.slick-arrow:hover {
+  background-color: #e9e9e9;
+}
+
+.slick-arrow svg {
+  height: 1rem;
+}
+
+@media(min-width: 479px) {
+  .slick-arrow svg {
+    height: 2rem;
+  }
+}
+
+.slick-prev {
+  transform: rotate(180deg);
+}
+
+.slick-next {
+  transform: translateX(100%);
+}

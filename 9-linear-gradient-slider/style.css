@@ -1,0 +1,91 @@
+.slider {
+	position: relative;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	background: linear-gradient(270deg, #805AD5 0%, #3182CE 100%);
+	color: #fff;
+}
+
+.slider__slide {
+	display: flex !important;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100vh;
+}
+
+.slider__container {
+	padding: 0 1rem;
+	max-width: 100%;
+}
+
+.slider__heading {
+	font-size: 2.5rem;
+}
+
+.slick-arrow {
+	position: absolute;
+	font-size: 0;
+	height: 50px;
+	width: 50px;
+	background: rgba(255, 255, 255, 0.6) url('./img/arrow.svg') no-repeat 50% 50%;
+	background-size: 1rem;
+	border: none;
+	border-radius: 50%;
+	cursor: pointer;
+	z-index: 1;
+	right: 2rem;
+	bottom: 2rem;
+}
+
+.slick-prev {
+	left: 2rem;
+	transform: rotate(180deg);
+}
+
+.slick-dots {
+	position: absolute;
+	left: 50%;
+	padding: 0;
+	margin: 0;
+	transform: translateX(-50%);
+	bottom: 2.3rem;
+}
+
+.slick-dots li {
+	display: inline;
+	margin: 0 0.5rem;
+}
+ 
+.slick-dots button {
+	border: none;
+	font-size: 0;
+	padding: 7px;
+	border-radius: 100%;
+	cursor: pointer;
+}
+
+.slick-dots .slick-active button {
+	background-color: #D6BCFA;
+}
+
+@media only screen and (min-width: 1024px) {
+	.slider {
+		height: 50vh;
+	}
+	.slider__slide {
+		height: 50vh;
+	}
+	.slider__container {
+		max-width: 60%;
+	}
+	.slick-arrow {
+		transform: translateY(-50%);
+		top: 50%;
+	}
+	.slick-prev {
+		transform: translateY(-50%) rotate(180deg);
+	}
+}

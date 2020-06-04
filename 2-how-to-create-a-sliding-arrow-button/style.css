@@ -1,0 +1,56 @@
+/* base */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* btn */
+.btn {
+  position: relative;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 0.75rem 1.5rem;
+  border-radius: 1.5rem;
+  text-decoration: none;
+  display: inline-block;
+  background-color: #357EDD;
+  color: #fff;
+}
+
+.btn span {
+  display: inline-block;
+  transition: transform 0.4s ease;
+}
+
+.btn::after {
+  position: absolute;
+  content: "";
+  width: 1rem;
+  height: 13px;
+  top: 50%;
+  opacity: 0;
+  transform: translateX(-100%) translateY(-50%);
+  background-image: url('./img/arrow.svg');
+  background-size: cover;
+  transition: all 0.4s ease;
+  background-position: 50%;
+}
+
+.btn:hover span {
+  transform: translateX(-0.75rem);
+}
+
+.btn:hover::after {
+  opacity: 1;
+  transform: translateX(-20%) translateY(-50%);
+}

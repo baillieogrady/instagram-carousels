@@ -1,0 +1,99 @@
+/* base */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  max-width: 100%;
+  width: 960px;
+  margin: 0 auto;
+}
+
+/* slider */
+
+.slider {
+  width: 100%;
+}
+
+.slider__slide {
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.slider__slide--first {
+  background-image: url('./img/bridge.jpg');
+}
+
+
+.slider__slide--second {
+  background-image: url('./img/forest.jpg');
+}
+
+.slider__slide--last {
+  background-image: url('./img/waterfall.jpg');
+}
+
+/* slick slider */
+.slick-slide {
+  height: 50vh;
+}
+
+.slick-arrow {
+  font-size: 0;
+  border: none;
+  background: none;
+  height: 50px;
+  width: 30px;
+  background-color: #357EDD;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in;
+  padding: 0;
+  outline: none;
+}
+
+.slick-arrow svg {
+  width: 10px;
+}
+
+.slick-arrow:hover {
+  background-color: #226BCA;
+}
+
+.slick-prev {
+  transform: rotate(180deg) translateX(100%);
+}
+
+@media(min-width: 960px) {
+  .slick-arrow {
+    top: 50px;
+    transform: translateX(100%);
+  }
+
+  .slick-prev {
+    transform: translateX(0%) rotate(180deg);
+  }
+}
