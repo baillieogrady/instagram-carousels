@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="./style-insta.css">
+    <style>
+        *,
+        *:before,
+        *:after {
+            box-sizing: inherit;
+        }
+
+        html {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Roboto';
+        }
+
+        .slide {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            font-family: oswald;
+            height: 1080px;
+            width: 1080px;
+            background-color: #F7F7F7;
+            padding: 3rem;
+        }
+
+        .slide__header {
+            font-size: 1.5rem;
+            font-weight: bold;
+            line-height: 1;
+            text-align: center;
+        }
+
+        .slide__header,
+        .slide__footer {
+            display: flex;
+            justify-content: space-between;
+            font-family: 'Roboto';
+            font-size: 1.5rem;
+        }
+
+        .slide__main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            font-family: "Roboto", Helvetica, sans-serif;
+        }
+
+        .slide__main>div {
+            text-align: center;
+            width: 80%;
+        }
+
+        .slide__main>div>div {
+            width: 100%;
+            height: 32vh;
+            margin-bottom: 2rem;
+            border-radius: 6px;
+            box-shadow: 0px 0px 16px rgba(74, 85, 104, 0.16);
+        }
+
+        .slide__main p {
+            /* font-size: 1.5rem; */
+            /* color: #4A5568; */
+            font-weight: 400;
+            font-family: 'Roboto';
+        }
+
+        .slide__main span {
+            color: #3182CE;
+        }
+
+        .slide__footer {
+            font-size: 1.5rem;
+            line-height: 1;
+            color: #718096;
+            align-items: flex-end;
+        }
+
+        p {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="slide">
+        <div class="slide__header">
+            <p style="color: #718096;">SLICK</p>
+            <p style="color: #1A202C; transform: translateX(-30%);">RESULT</p>
+            <p class="slide__number" style="color: #718096;">10</p>
+        </div>
+        <div class="slide__main">
+            <div>
+                <div class="slider">
+                    <div class="slider__slide">
+                        <div class="slider__container">
+                            <h2 class="slider__heading">
+                                <em>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi molestias iusto
+                                    mollitia."</em>
+                            </h2>
+                            <p style="color: #fff; margin-bottom: 1rem;"><strong>Magnam
+                                    Voluptatum</strong></p>
+                            <p style="color: #fff;">Recusandae Fugit Soluta</p>
+                        </div>
+                    </div>
+                    <div class="slider__slide">
+                        <div class="slider__container">
+                            <h2 class="slider__heading">
+                                <em>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi molestias iusto
+                                    mollitia."</em>
+                            </h2>
+                            <p style="color: #fff; margin-bottom: 1rem;"><strong>Magnam
+                                    Voluptatum</strong></p>
+                            <p style="color: #fff;">Recusandae Fugit Soluta</p>
+                        </div>
+                    </div>
+                </div>
+                <p style="font-size: 2rem; color: #4A5568; font-weight: 400;">All code can be found on my CodePen,
+                    <span style="font-weight: bold;">link</span> in
+                    bio.</p>
+            </div>
+        </div>
+        <div class="slide__footer">
+            <p>@baillieogrady</p>
+            <svg width="30" height="24" viewBox="0 0 30 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M24.885 13.582H1.5C1.10218 13.582 0.720644 13.424 0.43934 13.1427C0.158035 12.8614 0 12.4799 0 12.082C0 11.6842 0.158035 11.3027 0.43934 11.0214C0.720644 10.7401 1.10218 10.582 1.5 10.582H24.885L16.935 2.63205C16.779 2.49644 16.6527 2.33006 16.5641 2.14335C16.4754 1.95663 16.4263 1.75361 16.4198 1.54702C16.4134 1.34043 16.4497 1.13473 16.5264 0.942826C16.6032 0.750923 16.7188 0.576957 16.866 0.431845C17.0132 0.286732 17.1888 0.173603 17.3817 0.0995575C17.5747 0.0255117 17.7809 -0.00785365 17.9874 0.00155494C18.1939 0.0109635 18.3962 0.0629426 18.5816 0.154232C18.767 0.245521 18.9316 0.37415 19.065 0.532047L29.565 11.032C29.8398 11.3124 29.9938 11.6894 29.9938 12.082C29.9938 12.4747 29.8398 12.8517 29.565 13.132L19.065 23.632C18.7798 23.88 18.4116 24.0111 18.0339 23.9993C17.6562 23.9874 17.2969 23.8335 17.0278 23.5682C16.7587 23.3029 16.5996 22.9458 16.5824 22.5683C16.5652 22.1908 16.6912 21.8207 16.935 21.532L24.885 13.582Z"
+                    fill="#718096" />
+            </svg>
+
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
