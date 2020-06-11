@@ -5,6 +5,6 @@ Here is the code to all my coding carousel tutorials found on [my instagram](htt
 I aim to create 100 carousels in total.
 
 
-## Support me
+## Support
 
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/baillieogrady)
