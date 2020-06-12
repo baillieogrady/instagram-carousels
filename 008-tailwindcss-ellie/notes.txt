@@ -1,2 +1,0 @@
-icon - freepik
-design - nomad ui8

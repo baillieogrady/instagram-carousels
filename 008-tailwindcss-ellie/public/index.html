@@ -4,24 +4,130 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-  <link rel="stylesheet" href="/build/tailwind.css">
+  <title>Ellie</title>
+  <link rel="stylesheet" href="./build/styles.css">
 </head>
 
-<body class="bg-gray-100 mt-8">
-  <article class="rounded-lg shadow-lg bg-white p-4 max-w-xs mx-auto">
-    <header class="flex mb-4">
-      <img class="h-12 rounded-lg" src="./img/facebook.svg" alt="Facebook">
-      <div class="ml-4">
-        <p class="text-gray-900 font-semibold">Product Designer</p>
-        <p class="text-gray-600 text-sm mt-1">Facebook, Inc, Menlo Park, CA</p>
+<body class="font-body leading-tight bg-gray-200">
+  <!-- Blog post card -->
+  <div class="px-6 max-w-md mx-auto">
+    <article class="bg-white shadow-lg">
+      <div style="background-image: url('./img/leaf.jpg');" class="h-56 bg-center bg-cover"></div>
+      <div class="px-8 py-5">
+        <header>
+          <p class="text-gray-400 mb-4">17 FEB 2021</p>
+          <h1 class="text-xl mb-2 font-semibold">Want to be a great writer? <span class="block">Then Don't Focus On
+              Writing.</span></h1>
+          <p class="mb-8">
+            "Work according to Program and not according to mood. Stop at the appoint...
+          </p>
+        </header>
+        <footer class="flex text-gray-500">
+          <div class="flex items-center">
+            <img src="./img/message.svg" alt="Comments">
+            <span class="ml-2">56</span>
+          </div>
+          <div class="flex items-center ml-8">
+            <img src="./img/eye.svg" alt="Views">
+            <span class="ml-2">245</span>
+          </div>
+        </footer>
       </div>
-    </header>
-    <p class="mb-4 text-gray-600 text-sm leading-relaxed">We are looking for an outstanding Web Designer who is
-      passionate
-      about...</p>
-    <p class="text-gray-900 font-semibold text-sm">$129,000 a year</p>
-  </article>
+    </article>
+  </div>
+  <!-- /Blog post card -->
+  <!-- spacer -->
+  <div class="mt-12"></div>
+  <!-- /spacer -->
+  <!-- Mini blog post card -->
+  <div class="px-6 max-w-md mx-auto">
+    <article class="bg-white px-8 py-1 shadow-lg flex items-center">
+      <div>
+        <img src="./img/leaf.jpg" alt="Leaf" class="object-cover h-32 w-32">
+      </div>
+      <div class="ml-4 my-4">
+        <p class="text-gray-400 mb-2">17 FEB 2021</p>
+        <h1 class="mb-4">Want To Be A Great Writer?</h1>
+        <div class="flex items-center">
+          <img src="./img/andrea.png" alt="Andrea Jackson" class="h-8" />
+          <p class="text-gray-600 text-sm ml-2">Andrea Jackson</p>
+        </div>
+      </div>
+    </article>
+  </div>
+  <!-- /Mini blog post card -->
+  <!-- spacer -->
+  <div class="mt-12"></div>
+  <!-- /spacer -->
+  <!-- Blog profile card -->
+  <div class="px-6 max-w-md mx-auto">
+    <div class="bg-white p-8 text-center shadow-lg">
+      <img src="./img/andrea.png" alt="Andrea" class="mx-auto mb-6">
+      <p class="text-2xl mb-2 font-semibold mb-2">Andrea Jackson</p>
+      <p class="text-gray-500 mb-12">Writer & Wild Traveler</p>
+      <a href="#" class="text-green-800 font-semibold inline-block mb-6">Follow</a>
+      <div class="flex justify-between items-between sm:px-12">
+        <div>
+          <p><span>34 </span>Followers</p>
+        </div>
+        <div>
+          <p><span>24 </span>Articles</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /Blog profile card -->
+  <!-- spacer -->
+  <div class="mt-12"></div>
+  <!-- /spacer -->
+  <!-- Mini blog profile card -->
+  <div class="px-6 max-w-md mx-auto">
+    <div class="bg-white p-8 shadow-lg flex justify-between items-center">
+      <div class="flex items-center">
+        <div>
+          <img src="./img/andrea.png" alt="Andrea Jackson" class="h-12" />
+        </div>
+        <div class="ml-4">
+          <p class="mb-2">Andrea Jackson</p>
+          <p class="text-gray-500 text-sm">Photograph</p>
+        </div>
+      </div>
+      <a href="#" class="text-green-800 font-semibold">Follow</a>
+    </div>
+  </div>
+  <!-- /Mini blog profile card -->
+  <!-- spacer -->
+  <div class="mt-12"></div>
+  <!-- /spacer -->
+  <!-- navigation -->
+  <div class="px-6 max-w-md mx-auto">
+    <div class="bg-white p-8 shadow-lg flex justify-between items-center">
+      <svg class="h-6 w-6 fill-current" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M20.62 4.22a1 1 0 0 0-.84-.2L12 5.77 4.22 4A1 1 0 0 0 3 5v12.2a1 1 0 0 0 .78 1l8 1.8h.44l8-1.8a1 1 0 0 0 .78-1V5a1 1 0 0 0-.38-.78zM5 6.25l6 1.35v10.15L5 16.4V6.25zM19 16.4l-6 1.35V7.6l6-1.35V16.4z" />
+      </svg>
+      <svg class="h-6 w-6 fill-current" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M20.71 19.29L17.31 15.9C18.407 14.5025 19.0022 12.7767 19 11C19 9.41775 18.5308 7.87103 17.6518 6.55544C16.7727 5.23985 15.5233 4.21447 14.0615 3.60897C12.5997 3.00347 10.9911 2.84504 9.43928 3.15372C7.88743 3.4624 6.46197 4.22433 5.34315 5.34315C4.22433 6.46197 3.4624 7.88743 3.15372 9.43928C2.84504 10.9911 3.00347 12.5997 3.60897 14.0615C4.21447 15.5233 5.23985 16.7727 6.55544 17.6518C7.87103 18.5308 9.41775 19 11 19C12.7767 19.0022 14.5025 18.407 15.9 17.31L19.29 20.71C19.383 20.8037 19.4936 20.8781 19.6154 20.9289C19.7373 20.9797 19.868 21.0058 20 21.0058C20.132 21.0058 20.2627 20.9797 20.3846 20.9289C20.5064 20.8781 20.617 20.8037 20.71 20.71C20.8037 20.617 20.8781 20.5064 20.9289 20.3846C20.9797 20.2627 21.0058 20.132 21.0058 20C21.0058 19.868 20.9797 19.7373 20.9289 19.6154C20.8781 19.4936 20.8037 19.383 20.71 19.29V19.29ZM5 11C5 9.81332 5.3519 8.65328 6.01119 7.66658C6.67047 6.67989 7.60755 5.91085 8.7039 5.45673C9.80026 5.0026 11.0067 4.88378 12.1705 5.11529C13.3344 5.3468 14.4035 5.91825 15.2426 6.75736C16.0818 7.59648 16.6532 8.66558 16.8847 9.82946C17.1162 10.9933 16.9974 12.1997 16.5433 13.2961C16.0892 14.3925 15.3201 15.3295 14.3334 15.9888C13.3467 16.6481 12.1867 17 11 17C9.4087 17 7.88258 16.3679 6.75736 15.2426C5.63214 14.1174 5 12.5913 5 11Z" />
+      </svg>
+      <svg class="h-6 w-6 fill-current" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M12 11C12.7911 11 13.5645 10.7654 14.2223 10.3259C14.8801 9.88635 15.3928 9.26164 15.6955 8.53074C15.9983 7.79983 16.0775 6.99556 15.9231 6.21964C15.7688 5.44372 15.3878 4.73098 14.8284 4.17157C14.269 3.61216 13.5563 3.2312 12.7804 3.07686C12.0044 2.92252 11.2002 3.00173 10.4693 3.30448C9.73836 3.60723 9.11365 4.11992 8.67412 4.77772C8.2346 5.43552 8 6.20888 8 7C8 8.06087 8.42143 9.07828 9.17157 9.82843C9.92172 10.5786 10.9391 11 12 11ZM12 5C12.3956 5 12.7822 5.1173 13.1111 5.33706C13.44 5.55683 13.6964 5.86918 13.8478 6.23463C13.9991 6.60009 14.0387 7.00222 13.9616 7.39018C13.8844 7.77814 13.6939 8.13451 13.4142 8.41422C13.1345 8.69392 12.7781 8.8844 12.3902 8.96157C12.0022 9.03874 11.6001 8.99914 11.2346 8.84776C10.8692 8.69639 10.5568 8.44004 10.3371 8.11114C10.1173 7.78224 10 7.39556 10 7C10 6.46957 10.2107 5.96086 10.5858 5.58579C10.9609 5.21072 11.4696 5 12 5Z" />
+        <path
+          d="M12 13C10.1435 13 8.36301 13.7375 7.05025 15.0503C5.7375 16.363 5 18.1435 5 20C5 20.2652 5.10536 20.5196 5.29289 20.7071C5.48043 20.8946 5.73478 21 6 21C6.26522 21 6.51957 20.8946 6.70711 20.7071C6.89464 20.5196 7 20.2652 7 20C7 18.6739 7.52678 17.4021 8.46447 16.4645C9.40215 15.5268 10.6739 15 12 15C13.3261 15 14.5979 15.5268 15.5355 16.4645C16.4732 17.4021 17 18.6739 17 20C17 20.2652 17.1054 20.5196 17.2929 20.7071C17.4804 20.8946 17.7348 21 18 21C18.2652 21 18.5196 20.8946 18.7071 20.7071C18.8946 20.5196 19 20.2652 19 20C19 18.1435 18.2625 16.363 16.9497 15.0503C15.637 13.7375 13.8565 13 12 13V13Z" />
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 fill-current">
+        <path
+          d="M6.09002 21.06C5.8248 21.06 5.57045 20.9546 5.38291 20.7671C5.19538 20.5796 5.09002 20.3252 5.09002 20.06L4.94002 5.4C4.92798 5.10234 4.9749 4.80525 5.07809 4.52579C5.18128 4.24633 5.33871 3.99004 5.5413 3.77164C5.7439 3.55324 5.98768 3.37705 6.25862 3.25321C6.52955 3.12936 6.8223 3.0603 7.12002 3.05L16.71 3C17.0081 3.00521 17.3023 3.06909 17.5757 3.18801C17.8491 3.30692 18.0965 3.47854 18.3035 3.69305C18.5106 3.90756 18.6734 4.16077 18.7826 4.43821C18.8918 4.71565 18.9453 5.01189 18.94 5.31L19.08 19.97C19.0817 20.1452 19.0374 20.3178 18.9514 20.4705C18.8654 20.6232 18.7408 20.7506 18.59 20.84C18.438 20.9278 18.2656 20.974 18.09 20.974C17.9145 20.974 17.742 20.9278 17.59 20.84L11.89 17.68L6.60002 20.91C6.44337 20.9975 6.2691 21.0488 6.09002 21.06V21.06ZM11.85 15.51C12.0238 15.5103 12.195 15.5514 12.35 15.63L17.06 18.24L16.94 5.29C16.94 5.09 16.81 4.95 16.73 4.96L7.13002 5.05C7.05002 5.05 6.94002 5.18 6.94002 5.38L7.06002 18.28L11.34 15.65C11.4955 15.561 11.6709 15.5128 11.85 15.51V15.51Z" />
+      </svg>
+
+
+    </div>
+  </div>
+  <!-- /navigation -->
+  <!-- spacer -->
+  <div class="mt-12"></div>
+  <!-- /spacer -->
 </body>
 
 </html>
