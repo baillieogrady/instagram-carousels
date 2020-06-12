@@ -21,7 +21,11 @@
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^2.2.0",
     "autoprefixer": "^9.6.1",
+<<<<<<< HEAD
     "cssnano": "^4.1.10",
+=======
+    "live-server": "^1.2.1",
+>>>>>>> 223c9ea6047ec8ce78e5396d2a16abe0242c1165
     "postcss-cli": "^6.1.2",
     "tailwindcss": "^1.0.4"
   }
