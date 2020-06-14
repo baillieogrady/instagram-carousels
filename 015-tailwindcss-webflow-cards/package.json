@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "postcss src/css/styles.css -o public/build/styles.css && live-server public/"
+    "dev": "postcss src/styles.css -o public/build/styles.css && live-server public/",
+    "build": "NODE_ENV=production postcss src/styles.css -o public/build/styles.css"
   },
   "repository": {
     "type": "git",
@@ -18,9 +19,13 @@
   },
   "homepage": "https://github.com/adamwathan/my-tailwind-project#readme",
   "dependencies": {
-    "autoprefixer": "^9.6.1",
-    "live-server": "^1.2.1",
+    "tailwindcss": "^1.4.0"
+  },
+  "devDependencies": {
     "postcss-cli": "^6.1.2",
-    "tailwindcss": "^1.0.4"
+    "autoprefixer": "^9.6.1",
+    "cssnano": "^4.1.10",
+    "live-server": "^1.2.1",
+    "@fullhuman/postcss-purgecss": "^2.2.0"
   }
 }
