@@ -1,0 +1,62 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Baillie\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\php;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\Baillie\AppData\Local\Microsoft\WindowsApps;C:\Users\Baillie\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Baillie\AppData\Roaming\npm;C:\Users\Baillie\AppData\Roaming\Composer\vendor\bin;C:\Users\Baillie\AppData\Local\Microsoft\WindowsApps;C:\Users\Baillie\AppData\Local\hyper\app-3.0.2\resources\bin;C:\Users\Baillie\AppData\Local\Programs\Python\Python38-32\Lib\idlelib;
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  10.16.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\Users\Baillie\Desktop\carousels\008-tailwindcss-ellie\package.json: Unexpected token < in JSON at position 708
+      at JSON.parse (<anonymous>)
+      at C:\Users\Baillie\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Users\Baillie\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:304:30)
+      at C:\Users\Baillie\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "ellie",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "dev": "postcss src/css/styles.css -o public/build/styles.css && live-server public",
+      "build": "NODE_ENV=production postcss src/css/styles.css -o public/build/styles.css"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/adamwathan/my-tailwind-project.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/adamwathan/my-tailwind-project/issues"
+    },
+    "homepage": "https://github.com/adamwathan/my-tailwind-project#readme",
+    "dependencies": {
+      "@fullhuman/postcss-purgecss": "^2.2.0",
+      "autoprefixer": "^9.6.1",
+  <<<<<<< HEAD
+      "cssnano": "^4.1.10",
+  =======
+      "live-server": "^1.2.1",
+  >>>>>>> 223c9ea6047ec8ce78e5396d2a16abe0242c1165
+      "postcss-cli": "^6.1.2",
+      "tailwindcss": "^1.0.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
