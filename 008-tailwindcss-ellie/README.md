@@ -1,4 +1,4 @@
-# 1.1 Setting up Tailwind and PostCSS
+# Ellie TailwindCSS
 
 To get started, `cd` into this subfolder and run `npm install` to install the dependencies.
 
