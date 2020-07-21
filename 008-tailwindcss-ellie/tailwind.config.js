@@ -3,6 +3,9 @@ module.exports = {
     fontFamily: {
       body: ['"SF UI Text"', '"sans-serif"', 'Arial']
     },
+    inset: {
+      '05': '0.5rem'
+    },
     extend: {
       colors: {
         black: '#191919',
@@ -16,7 +19,7 @@ module.exports = {
         },
         green: {
           '800': '#286c60'
-        }
+        },
       }
     }
   },
