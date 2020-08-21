@@ -1,0 +1,29 @@
+{
+  "name": "ellie",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "postcss src/css/styles.css -o public/build/styles.css && live-server public",
+    "build": "NODE_ENV=production postcss src/css/styles.css -o public/build/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamwathan/my-tailwind-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adamwathan/my-tailwind-project/issues"
+  },
+  "homepage": "https://github.com/adamwathan/my-tailwind-project#readme",
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "^2.2.0",
+    "autoprefixer": "^9.6.1",
+    "cssnano": "^4.1.10",
+    "live-server": "^1.2.1",
+    "postcss-cli": "^6.1.2",
+    "tailwindcss": "^1.0.4"
+  }
+}

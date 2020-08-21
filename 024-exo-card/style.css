@@ -1,0 +1,74 @@
+/* base */
+
+body {
+    margin: 0;
+    font-family: 'Inter';
+    line-height: 1.7;
+    color: #555770;
+    background-color: #F2F2F5;
+}
+
+h1 {
+    font-size: 1.75rem;
+    line-height: 1.5;
+    color: #000;
+    margin: 1rem 0 0.5rem 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* utilities */
+
+.wrapper {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.flex {
+    display: flex;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/* card */
+
+.card {
+    background-color: #fff;
+    padding: 1rem;
+    width: 30rem;
+    /* border-radius: 1rem; */
+}
+
+.card__img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.card__stats {
+    align-items: center;
+    font-size: 1.25rem;
+    color:  #555770;
+}
+
+.card__stats svg {
+    margin-right: 1rem;
+}
+
+.card__footer {
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.card__cta {
+    font-size: .875rem;
+    color: #3366FF;
+    letter-spacing: 0.75px;
+    margin-right: 1rem;
+}

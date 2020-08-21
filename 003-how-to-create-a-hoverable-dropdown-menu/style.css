@@ -1,0 +1,88 @@
+/* base */
+/* rem's inherit from 16px || browsers base agent font size */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+/* menu */
+.menu {
+  margin: 0;
+  padding: 0;
+}
+
+.menu__link {
+  display: inline-block;
+  position: relative;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.menu__link > a {
+  color: #222;
+  text-decoration: none;
+}
+
+.menu__link:hover .menu__dropdown {
+  display: block;
+  z-index: 1;
+  background-color: #222;
+}
+
+.menu__dropdown {
+  display: none;
+  padding: 0.5rem 0;
+  position: absolute;
+  /* Includes the height of the triangle ::after element */
+  top: calc(100% + 0.8rem);
+  left: 0;
+  border-radius: 3px;
+  width: 11rem;
+  box-shadow: 0 0 13px -5px #222
+}
+
+.menu__dropdown::before {
+  /* left value is half the width of the .menu__link element */
+  left: 2.25rem;
+  content: " ";
+  position: absolute;
+  top: -0.8rem;
+  height: 0;
+  transform: translateX(-50%);
+  border-style: solid;
+  border-width: 0 0.8rem 0.8rem 0.8rem;
+  border-color: transparent transparent #222 transparent;
+}
+
+.menu__dropdown a {
+  display: block;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+}
+
+.menu__dropdown a:hover {
+  background-color: #333;
+}

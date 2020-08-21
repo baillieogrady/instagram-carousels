@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: 'Open sans';
+    line-height: 1.6;
+}
+
+h1 {
+    font-size: 2.25rem;
+    line-height: 1.4;
+    font-weight: 700;
+}
+
+.domino__box {
+    padding: 2.5rem;
+}
+
+.domino__img {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    border-top-right-radius: 8rem;
+    border-bottom-left-radius: 8rem;
+}
+
+.domino__btn {
+    display: inline-block;
+    background-color: #dc8c27;
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    font-size: 0.75rem;
+    margin-top: 2rem;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+}
+
+@media(min-width: 1600px) {
+    body {
+        font-size: 2rem;
+    }
+    
+    h1 {
+        font-size: 4.5rem;
+    }
+    .domino > * {
+        width: 50%; 
+    }
+    .domino__box {
+        padding: 5rem;
+        max-width: 650px;
+        margin-left: auto;
+    }    
+    .domino__btn {
+        font-size: 1rem;
+    }
+    .domino {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 100vh;
+    }
+    .domino__img {
+        object-fit: cover;
+        object-position: center;
+        height: 100%;
+        width: 50%;
+        border-top-right-radius: 8rem;
+        border-bottom-left-radius: 8rem;
+    }
+    
+}

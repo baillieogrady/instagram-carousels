@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'SF UI Text';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/SFUIText-Regular.ttf');
+  unicode-range: U+0020-007F;
+}
+
+@font-face {
+  font-family: 'SF UI Text';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/SFUIText-Semibold.ttf');
+  unicode-range: U+0020-007F;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

@@ -1,0 +1,7 @@
+<svg class="banner__cross" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+    viewBox="0 0 20 20">
+    <g transform="translate(-58.146 -173.146)">
+        <line x1="20" y2="20" transform="translate(58.5 173.5)" fill="none" stroke="#fff" stroke-width="1"></line>
+        <line x1="20" y1="20" transform="translate(58.5 173.5)" fill="none" stroke="#fff" stroke-width="1"></line>
+    </g>
+</svg>
