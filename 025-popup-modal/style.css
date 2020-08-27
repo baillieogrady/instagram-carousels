@@ -1,0 +1,103 @@
+/* base */
+
+body {
+    margin: 0;
+    font-family: 'Inter';
+    line-height: 1.7;
+    color: #555770;
+    background-color: #F2F2F5;
+}
+
+h1 {
+    font-size: 1.75rem;
+    line-height: 1.5;
+    color: #000;
+    margin: 1rem 0 0.5rem 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* utilities */
+
+.wrapper {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.flex {
+    display: flex;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.font-12 {
+    font-size: 0.75rem;
+}
+
+/* modal */
+
+.modal {
+    padding: 1rem;
+    border-radius: .5rem;
+    background-color: #fff;
+    max-width: 22.5rem;
+    position: relative;
+}
+
+.modal__header {
+    align-items: center;
+    font-size: 1.25rem;
+    color: #000;
+}
+
+.modal__header p {
+    margin: 0;
+}
+
+.modal__cross {
+    position: absolute;
+    top: .25rem;
+    right: .25rem;
+}
+
+.modal__cross svg rect {
+    transition: fill .2s ease-in-out;
+}
+
+.modal__cross:hover svg rect {
+    fill: #E3E4EB;
+}
+
+.modal__img {
+    height: 2rem;
+    width: 2rem;
+    margin-right: 1rem;
+}
+
+.modal__btns {
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.modal__cta {
+    padding: .5rem 1.5rem;
+    border-radius: .25rem;
+    margin-left: .5rem;
+    font-size: .75rem;
+    transition: background-color .2s ease-in-out;
+}
+
+.modal__cta--blue {
+    background-color: #36f;
+    color: #fff;
+}
+
+.modal__cta--blue:hover {
+    background-color: #254EDA;
+}
