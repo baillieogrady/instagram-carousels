@@ -1,0 +1,22 @@
+/* base */
+body {
+    margin: 0;
+    font-family: 'Abril Fatface';
+    line-height: 1.7;
+}
+
+h1 {
+    font-size: 4rem;
+    color: #fff;
+    font-weight: 400;
+}
+
+
+/* hero */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('./img/smoke.jpg');
+}

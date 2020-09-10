@@ -8,15 +8,9 @@ body {
     background-color: #F2F2F5;
 }
 
-h1 {
-    font-size: 1.75rem;
-    line-height: 1.5;
-    color: #000;
-    margin: 1rem 0 0.5rem 0;
-}
-
 a {
     text-decoration: none;
+    color: #36f;
 }
 
 /* utilities */
@@ -36,12 +30,7 @@ a {
     font-weight: bold;
 }
 
-.font-12 {
-    font-size: 0.75rem;
-}
-
 /* modal */
-
 .modal {
     padding: 1rem;
     border-radius: .5rem;
