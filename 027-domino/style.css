@@ -47,7 +47,6 @@ a {
     align-items: center;
     flex-wrap: wrap;
     height: 100vh;
-    background-image: url('./img/smoke.jpg');
 }
 
 .domino__box {
