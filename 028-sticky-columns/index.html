@@ -1,0 +1,39 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TailwindCSS - Sticky columns</title>
+    <!-- demo purposes -->
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <!-- /demo purposes -->
+</head>
+
+<body class="font-sans">
+    <div class="container mx-auto px-5 py-10 lg:py-0">
+        <section class="w-full lg:w-10/12 flex mx-auto items-start">
+            <div class="flex flex-wrap items-start">
+                <div class="w-full lg:w-1/2 lg:px-10 lg:pt-10 lg:sticky top-0">
+                    <img src="./img/honey.jpg" alt="Honey" class="w-full h-64 object-cover object-center mb-4 rounded">
+                    <p class="mb-4">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vulputate.
+                    </p>
+                    ...
+                </div>
+                <div class="w-full lg:w-1/2 lg:px-10 lg:pt-10 lg:sticky top-0">
+                    <p class="mb-4">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vulputate, erat et euismod iaculis, sem metus dictum turpis, at porttitor sapien lacus quis metus. Vivamus egestas, quam sed porta dignissim, felis magna tempus nunc,
+                    </p>
+                    <p class="mb-4">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vulputate, erat et euismod iaculis, sem metus dictum turpis, at porttitor sapien lacus quis metus. Vivamus egestas, quam sed porta dignissim, felis magna tempus nunc,
+                    </p>
+                    <img src="./img/tape.jpg" alt="Tape" class="w-full h-64 object-cover object-center mb-4 rounded">
+                    ...
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
