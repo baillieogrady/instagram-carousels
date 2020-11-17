@@ -1,0 +1,32 @@
+{
+  "name": "orditeck/sage9-acf-wp-blocks",
+  "description": "Create Gutenberg blocks from Sage blade templates and ACF fields.",
+  "keywords": [
+    "wordpress",
+    "gutenberg",
+    "advanced custom fields"
+  ],
+  "homepage": "https://github.com/orditeck/sage9-acf-wp-blocks",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Michael W. Delaney",
+      "email": "michael@michaeldelaney.me"
+    },
+    {
+      "name": "Nico Prat"
+    },
+    {
+      "name": "Keven Lefebvre",
+      "email": "keven@nevek.co"
+    }
+  ],
+  "require": {
+    "php": ">=5.4"
+  },
+  "autoload": {
+    "files": [
+      "sage-acf-gutenberg-blocks.php"
+    ]
+  }
+}

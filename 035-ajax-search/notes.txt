@@ -1,0 +1,56 @@
+Project plan - Gutwerk
+
+- Tasks
+
+Base (DONE)
+Global fields (DONE)
+page templates (DONE)
+Fonts (DONE)
+Default (DONE)
+Responsive
+CPT setup
+Optimise
+Handover
+
+Contact form
+
+
+Breakdown
+
+- - Base
+
+Extract brand styling from designs and implement into TailwindCSS.
+Create pages, custom posts and menus
+Setup staging server.
+
+
+- - Global fields
+Header
+Footer
+
+
+- - Page templates
+
+Home - startseite (DONE)
+Company - Ueber (DONE)
+Service - service  (DONE)
+Contact - Kontact
+References - Referzen (DONE)
+Default (DONE)
+
+- - Archives
+
+Real estate finder - postponed
+
+
+- - Single
+
+Real estate finder single - postponed
+
+
+- - Other
+404
+
+
+- - Global
+Banner - home (exclude from contact page) (DONE)

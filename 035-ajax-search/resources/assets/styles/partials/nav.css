@@ -1,0 +1,24 @@
+.nav {
+    @apply pt-4;
+    a {
+        @apply block no-underline mb-3 text-lg transition ease-in duration-200 text-white;
+        &:hover {
+            @apply opacity-75;
+        }
+    }
+    > ul {
+        @apply list-none ml-0 inline;
+        > li {
+            @apply m-0 mb-2;
+        }
+        > li.current-menu-item > a {
+            @apply text-brand-secondary;
+        }
+    }
+}
+
+@screen lg {
+    .nav {
+        @apply pt-8;
+    }
+}

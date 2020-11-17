@@ -1,0 +1,27 @@
+@import 'tailwindcss/base';
+
+/*! purgecss start ignore  */
+
+/* base */
+@import 'base.css';
+@import 'fonts.css';
+
+/* partials */
+@import 'partials/nav.css';
+@import 'partials/boxes.css';
+@import 'partials/footer.css';
+@import 'partials/heading-images.css';
+@import 'partials/quote.css';
+@import 'partials/hero.css';
+@import 'partials/manager.css';
+@import 'partials/references.css';
+@import 'partials/map.css';
+@import 'partials/contact.css';
+
+/* vendor */
+/* @import '/vendor/form/gravity.css'; */
+
+/*! purgecss end ignore  */
+
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
