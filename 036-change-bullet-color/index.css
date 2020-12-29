@@ -1,0 +1,22 @@
+body {
+    font-family: 'Inter';
+}
+
+.list {
+    list-style-type: none;
+    /* demo purposes */
+    font-size: 2rem;
+}
+
+.list li {
+    /* demo purposes */
+    margin-bottom: 1rem;
+}
+
+.list li::before {
+    content: "\2022";
+    display: inline-block;
+    width: 1.5rem;
+    margin-left: -1.5rem;
+    color: #3366ff;
+}
