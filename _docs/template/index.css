@@ -1,0 +1,42 @@
+
+body {
+    font-size: 24px;
+    color: #718096;
+    font-family: 'roboto';
+}
+
+h1,
+h2 {
+    font-family: 'oswald';
+    font-weight: medium;
+}
+
+h1 {
+    font-size: 128px;
+    line-height: 1;
+    color: #1A202C;
+}
+
+h2 {
+    color: #3182CE;
+    font-size: 64px;
+    margin-top: 2rem;
+}
+
+.card {
+    background-color: #F7F7F7;
+    padding: 48px;
+    height: 1080px;
+    width: 1080px;
+}
+
+/* unique */
+.card__item {
+    bottom: 108px;
+    right: 48px;
+    transform: rotate(-8deg);
+    /* change */
+    height: 503px;
+    width: 563px;
+}
+

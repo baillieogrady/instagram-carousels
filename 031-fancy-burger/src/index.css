@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header {
+    &__icon {
+        @apply transition duration-200 ease-in-out;
+
+        &.active {
+            @apply bg-transparent border border-white;
+            .header__burger {
+                .header__line {
+                    @apply bg-white
+                }
+            }
+        }
+    }
+    &__burger {
+        height: 10px;
+        span {
+            @apply relative transition-all duration-200 ease-in-out;
+        }
+        span:first-child {
+            top: 0;
+        }
+        span:nth-child(2) {
+            top: 3px;
+        }
+        span:last-child {
+            top: 6px;
+        }
+        &.active {
+            span:first-child,
+            span:last-child {
+                @apply transform;   
+            }
+            span:first-child {
+                @apply rotate-45;
+                top: 6px;
+            }
+            span:nth-child(2) {
+                @apply opacity-0;
+            }
+            span:last-child {
+                @apply -rotate-45;
+                top: 4px;
+            }
+        }
+    }
+}

@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+}
+
+.hero {
+    height: 100vh;
+    background-image: url('img/bg.jpg');
+    background-size: cover;
+    position: relative;
+}
+
+.hero::after {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 50%;
+    backdrop-filter: blur(15px);
+}
