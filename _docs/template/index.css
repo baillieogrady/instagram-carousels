@@ -32,11 +32,27 @@ h2 {
 
 /* unique */
 .card__item {
+    position: absolute;
     bottom: 108px;
     right: 48px;
     transform: rotate(-8deg);
     /* change */
     height: 503px;
     width: 563px;
+}
+
+.card__lead {
+    position: absolute;
+    top: 48px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #1A202C;
+}
+
+.card__item--results {
+    top: 50%;
+    left: 50%;
+    transform: rotate(0deg) translateX(-50%) translateY(-50%);
+    /* change */
 }
 
