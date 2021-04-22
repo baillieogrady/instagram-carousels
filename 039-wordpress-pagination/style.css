@@ -1,0 +1,43 @@
+.pagination {
+    @apply text-center relative;
+
+    .current {
+        @apply text-black;
+    }
+
+    .page-numbers {
+        @apply mx-2 inline-block;
+    }
+
+    .prev,
+    .next {
+        @apply absolute font-semibold bg-no-repeat inline-block;
+
+        &::before {
+            content: '';
+            @apply absolute top-1/2 transform rotate-180 translate-x-full -translate-y-1/2 inline-block bg-cover;
+            right: -7px;
+            width: 17px;
+            height: 6px;
+            background-image: url('arrow.svg');
+        }
+    }
+
+    .next {
+        @apply top-1/2 transform -translate-y-1/2 right-0;
+    }
+
+
+    .prev {
+        @apply  top-1/2 transform -translate-y-1/2 left-0;
+
+        &::before {
+            @apply rotate-0;
+        }
+    }
+
+    a,
+    span {
+        @apply text-blue;
+    }
+}
