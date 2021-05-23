@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global event listener</title>
+</head>
+<body>
+    <p class="red">Red</p>
+    <p class="blue">Blue</p>
+</body>
+<script>
+    window.addEventListener('click', function(e){
+        if(e.target.classList.contains('red')){
+            e.target.style.color = '#ff0000';
+        }
+
+        if(e.target.classList.contains('blue')){
+            e.target.style.color = '#0000ff';
+        }
+    });
+</script>
+</html>
